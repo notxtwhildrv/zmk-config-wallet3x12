@@ -1,6 +1,9 @@
-if SHIELD_WALLET3X12
+# Copyright (c) 2021 The ZMK Contributors
+# SPDX-License-Identifier: MIT
+
+if SHIELD_BOARDSOURCE5X12
 
 config ZMK_KEYBOARD_NAME
-    default "wallet3x12"
+    default "boardsource5x12"
 
 endif

@@ -1,5 +1,5 @@
 # Copyright (c) 2021 The ZMK Contributors
 # SPDX-License-Identifier: MIT
 
-config SHIELD_BOARDSOURCE5X12
-    def_bool $(shields_list_contains, wallet3x12)
+config SHIELD_WALLET3X12
+    def_bool $(shields_list_contains,wallet3x12)

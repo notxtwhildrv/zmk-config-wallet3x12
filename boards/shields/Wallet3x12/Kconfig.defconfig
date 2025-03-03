@@ -1,0 +1,6 @@
+if SHIELD_WALLET3X12
+
+config ZMK_KEYBOARD_NAME
+    default "wallet3x12"
+
+endif
